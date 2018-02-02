@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CalculatorSuite"  parallel="methods"  thread-count="4" verbose="2">
+	<listeners>
+      	<listener class-name = "com.tam.m4.TestListener" />
+   	</listeners>
+
+
+ <test name="CalculatorTest">
+      <groups>
+          <run>
+              <include name="Smoke"/>
+              <include name="Negative"/>
+              <exclude name="Subtraction"/>
+          </run> 
+      </groups>
+    <classes>
+      <class name="com.tam.m4.HomeTask" />
+    </classes>
+  </test>
+
+</suite>

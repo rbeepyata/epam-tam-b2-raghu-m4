@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-CalculatorSuite">
+              <span class="suite-name border-failed">CalculatorSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-CalculatorSuite">
+                    <span>C:\Users\Raghunandan_Beepyata\workspace_training\epam-tam-b2-raghu-m4\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-CalculatorSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-CalculatorSuite">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-CalculatorSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-CalculatorSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-CalculatorSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-CalculatorSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 2 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-CalculatorSuite" class="hide-methods failed suite-CalculatorSuite"> (hide)</a> <!-- hide-methods failed suite-CalculatorSuite -->
+                      <a href="#" panel-name="suite-CalculatorSuite" class="show-methods failed suite-CalculatorSuite"> (show)</a> <!-- show-methods failed suite-CalculatorSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-CalculatorSuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.tam.m4.HomeTask" hash-for-method="testCosine">testCosine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.tam.m4.HomeTask" hash-for-method="testSquareRootOfNegativeNumber">testSquareRootOfNegativeNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-CalculatorSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-CalculatorSuite" class="hide-methods passed suite-CalculatorSuite"> (hide)</a> <!-- hide-methods passed suite-CalculatorSuite -->
+                      <a href="#" panel-name="suite-CalculatorSuite" class="show-methods passed suite-CalculatorSuite"> (show)</a> <!-- show-methods passed suite-CalculatorSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-CalculatorSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.tam.m4.HomeTask" hash-for-method="testAdditionOfTwoPositiveNumbers">testAdditionOfTwoPositiveNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.tam.m4.HomeTask" hash-for-method="testDivideByZero">testDivideByZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.tam.m4.HomeTask" hash-for-method="testDivideZeroByANumber">testDivideZeroByANumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.tam.m4.HomeTask" hash-for-method="testIsNegative">testIsNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.tam.m4.HomeTask" hash-for-method="testIsPositive">testIsPositive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.tam.m4.HomeTask" hash-for-method="testMultiplication">testMultiplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.tam.m4.HomeTask" hash-for-method="testMultiplyNumbers(-5, 0, 0)">testMultiplyNumbers(-5, 0, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.tam.m4.HomeTask" hash-for-method="testMultiplyNumbers(20, 10, 200)">testMultiplyNumbers(20, 10, 200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.tam.m4.HomeTask" hash-for-method="testMultiplyNumbers(10, 20, 200)">testMultiplyNumbers(10, 20, 200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.tam.m4.HomeTask" hash-for-method="testMultiplyNumbers(0, 5, 0)">testMultiplyNumbers(0, 5, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.tam.m4.HomeTask" hash-for-method="testSubtractionOfTwoNumbers">testSubtractionOfTwoNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-CalculatorSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-CalculatorSuite" class="panel CalculatorSuite">
+          <div class="suite-CalculatorSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.tam.m4.HomeTask</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCosine">
+                  </a> <!-- testCosine -->
+                  <span class="method-name">testCosine</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [1.0] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.tam.m4.HomeTask.testCosine(HomeTask.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSquareRootOfNegativeNumber">
+                  </a> <!-- testSquareRootOfNegativeNumber -->
+                  <span class="method-name">testSquareRootOfNegativeNumber</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [2.23606797749979] but found [5.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.tam.m4.HomeTask.testSquareRootOfNegativeNumber(HomeTask.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CalculatorSuite-class-failed -->
+          <div class="suite-CalculatorSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tam.m4.HomeTask</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdditionOfTwoPositiveNumbers">
+                  </a> <!-- testAdditionOfTwoPositiveNumbers -->
+                  <span class="method-name">testAdditionOfTwoPositiveNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDivideByZero">
+                  </a> <!-- testDivideByZero -->
+                  <span class="method-name">testDivideByZero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDivideZeroByANumber">
+                  </a> <!-- testDivideZeroByANumber -->
+                  <span class="method-name">testDivideZeroByANumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIsNegative">
+                  </a> <!-- testIsNegative -->
+                  <span class="method-name">testIsNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIsPositive">
+                  </a> <!-- testIsPositive -->
+                  <span class="method-name">testIsPositive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultiplication">
+                  </a> <!-- testMultiplication -->
+                  <span class="method-name">testMultiplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultiplyNumbers(-5, 0, 0)">
+                  </a> <!-- testMultiplyNumbers(-5, 0, 0) -->
+                  <span class="method-name">testMultiplyNumbers</span>
+                  <span class="parameters">(-5, 0, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultiplyNumbers(20, 10, 200)">
+                  </a> <!-- testMultiplyNumbers(20, 10, 200) -->
+                  <span class="method-name">testMultiplyNumbers</span>
+                  <span class="parameters">(20, 10, 200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultiplyNumbers(10, 20, 200)">
+                  </a> <!-- testMultiplyNumbers(10, 20, 200) -->
+                  <span class="method-name">testMultiplyNumbers</span>
+                  <span class="parameters">(10, 20, 200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultiplyNumbers(0, 5, 0)">
+                  </a> <!-- testMultiplyNumbers(0, 5, 0) -->
+                  <span class="method-name">testMultiplyNumbers</span>
+                  <span class="parameters">(0, 5, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubtractionOfTwoNumbers">
+                  </a> <!-- testSubtractionOfTwoNumbers -->
+                  <span class="method-name">testSubtractionOfTwoNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CalculatorSuite-class-passed -->
+        </div> <!-- panel CalculatorSuite -->
+        <div panel-name="test-xml-CalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Raghunandan_Beepyata\workspace_training\epam-tam-b2-raghu-m4\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;2&quot; name=&quot;CalculatorSuite&quot; parallel=&quot;methods&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.tam.m4.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;CalculatorTest&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Smoke&quot;/&gt;
+        &lt;include name=&quot;Negative&quot;/&gt;
+        &lt;exclude name=&quot;Subtraction&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tam.m4.HomeTask&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CalculatorTest --&gt;
+&lt;/suite&gt; &lt;!-- CalculatorSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CalculatorSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">CalculatorTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CalculatorSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Negative</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCosine</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testDivideByZero</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testDivideZeroByANumber</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testIsNegative</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testIsPositive</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMultiplyNumbers</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSquareRootOfNegativeNumber</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAdditionOfTwoPositiveNumbers</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMultiplication</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSubtractionOfTwoNumbers</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CalculatorSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CalculatorSuite');
+function tableData_CalculatorSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testIsNegative')
+data.setCell(0, 2, 'com.tam.m4.HomeTask')
+data.setCell(0, 3, 23);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSubtractionOfTwoNumbers')
+data.setCell(1, 2, 'com.tam.m4.HomeTask')
+data.setCell(1, 3, 19);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testAdditionOfTwoPositiveNumbers')
+data.setCell(2, 2, 'com.tam.m4.HomeTask')
+data.setCell(2, 3, 19);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testMultiplication')
+data.setCell(3, 2, 'com.tam.m4.HomeTask')
+data.setCell(3, 3, 19);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testDivideByZero')
+data.setCell(4, 2, 'com.tam.m4.HomeTask')
+data.setCell(4, 3, 17);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCosine')
+data.setCell(5, 2, 'com.tam.m4.HomeTask')
+data.setCell(5, 3, 16);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testIsPositive')
+data.setCell(6, 2, 'com.tam.m4.HomeTask')
+data.setCell(6, 3, 11);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testSquareRootOfNegativeNumber')
+data.setCell(7, 2, 'com.tam.m4.HomeTask')
+data.setCell(7, 3, 8);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testMultiplyNumbers')
+data.setCell(8, 2, 'com.tam.m4.HomeTask')
+data.setCell(8, 3, 5);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testDivideZeroByANumber')
+data.setCell(9, 2, 'com.tam.m4.HomeTask')
+data.setCell(9, 3, 3);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testMultiplyNumbers')
+data.setCell(10, 2, 'com.tam.m4.HomeTask')
+data.setCell(10, 3, 2);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testMultiplyNumbers')
+data.setCell(11, 2, 'com.tam.m4.HomeTask')
+data.setCell(11, 3, 2);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testMultiplyNumbers')
+data.setCell(12, 2, 'com.tam.m4.HomeTask')
+data.setCell(12, 3, 1);
+window.suiteTableData['CalculatorSuite']= { tableData: data, tableDiv: 'times-div-CalculatorSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 145 ms</span>
+              <div id="times-div-CalculatorSuite">
+              </div> <!-- times-div-CalculatorSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CalculatorSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMultiplyNumbers(-5, 0, 0)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Method started: testMultiplyNumbers</span>
+                <span class="reporter-method-output">a:-5	 b:0	 product:0</span>
+                <span class="reporter-method-output">Test Method Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testIsPositive</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Method started: testIsPositive</span>
+                <span class="reporter-method-output">a:-1	 IsPositive:false</span>
+                <span class="reporter-method-output">Test Method Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMultiplyNumbers(20, 10, 200)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Method started: testMultiplyNumbers</span>
+                <span class="reporter-method-output">a:20	 b:10	 product:200</span>
+                <span class="reporter-method-output">Test Method Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSubtractionOfTwoNumbers</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Method started: testSubtractionOfTwoNumbers</span>
+                <span class="reporter-method-output">a:10	 b:20	 diff:-10</span>
+                <span class="reporter-method-output">Test Method Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testDivideByZero</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Method started: testDivideByZero</span>
+                <span class="reporter-method-output">Test Method Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testDivideZeroByANumber</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Method started: testDivideZeroByANumber</span>
+                <span class="reporter-method-output">a:0	 b:1	 quotient:0</span>
+                <span class="reporter-method-output">Test Method Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testIsNegative</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Method started: testIsNegative</span>
+                <span class="reporter-method-output">a:1	 IsNegative:false</span>
+                <span class="reporter-method-output">Test Method Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMultiplyNumbers(10, 20, 200)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Method started: testMultiplyNumbers</span>
+                <span class="reporter-method-output">a:10	 b:20	 product:200</span>
+                <span class="reporter-method-output">Test Method Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMultiplyNumbers(0, 5, 0)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Method started: testMultiplyNumbers</span>
+                <span class="reporter-method-output">a:0	 b:5	 product:0</span>
+                <span class="reporter-method-output">Test Method Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testAdditionOfTwoPositiveNumbers</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Method started: testAdditionOfTwoPositiveNumbers</span>
+                <span class="reporter-method-output">a:10	 b:20	 sum:30</span>
+                <span class="reporter-method-output">Test Method Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMultiplication</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Method started: testMultiplication</span>
+                <span class="reporter-method-output">a:10	 b:20	 product:200</span>
+                <span class="reporter-method-output">Test Method Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testCosine</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Method started: testCosine</span>
+                <span class="reporter-method-output">a:0	 cos:0.0</span>
+                <span class="reporter-method-output">Test Method Failed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSquareRootOfNegativeNumber</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Method started: testSquareRootOfNegativeNumber</span>
+                <span class="reporter-method-output">a:-25	 SquareRoot:5.0</span>
+                <span class="reporter-method-output">Test Method Failed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.tam.m4.HomeTask</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testAdditionOfNegativeAndPositiveNumbers</span>
+                <br/>
+                <span class="ignored-method-name">testSubtractionOfNegativeAndPositiveNumbers</span>
+                <br/>
+                <span class="ignored-method-name">testAdditionOfPositiveAndNegativeNumbers</span>
+                <br/>
+                <span class="ignored-method-name">testSubtractionOfPositiveAndNegativeNumbers</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tam.m4.HomeTask</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testMultiplication</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubtractionOfTwoNumbers</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAdditionOfTwoPositiveNumbers</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDivideZeroByANumber</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDivideByZero</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCosine</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIsNegative</span>
+                <span class="method-start">33 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIsPositive</span>
+                <span class="method-start">37 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSquareRootOfNegativeNumber</span>
+                <span class="method-start">61 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMultiplyNumbers(10, 20, 200)</span>
+                <span class="method-start">90 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMultiplyNumbers(20, 10, 200)</span>
+                <span class="method-start">93 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMultiplyNumbers(0, 5, 0)</span>
+                <span class="method-start">102 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMultiplyNumbers(-5, 0, 0)</span>
+                <span class="method-start">106 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

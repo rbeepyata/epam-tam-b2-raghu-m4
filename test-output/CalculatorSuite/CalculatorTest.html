@@ -1,0 +1,383 @@
+<html>
+<head>
+<title>TestNG:  CalculatorTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>CalculatorTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Feb 02 18:01:02 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (147 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>Negative Smoke </td>
+</tr><tr>
+<td>Excluded groups:</td><td>Subtraction </td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.tam.m4.HomeTask.testCosine()'><b>testCosine</b><br>Test class: com.tam.m4.HomeTask<br/>
+<a href="#Output-1557043238" onClick='toggleBox("Output-1557043238", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1557043238" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1557043238">
+Method started: testCosine<br/>
+a:0	 cos:0.0<br/>
+Test Method Failed<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [1.0] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.tam.m4.HomeTask.testCosine(HomeTask.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1557043238", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1557043238'><pre>java.lang.AssertionError: expected [1.0] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.tam.m4.HomeTask.testCosine(HomeTask.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.tam.m4.HomeTask@5ae9a829</td></tr>
+<tr>
+<td title='com.tam.m4.HomeTask.testSquareRootOfNegativeNumber()'><b>testSquareRootOfNegativeNumber</b><br>Test class: com.tam.m4.HomeTask<br/>
+<a href="#Output-2111597906" onClick='toggleBox("Output-2111597906", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2111597906" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2111597906">
+Method started: testSquareRootOfNegativeNumber<br/>
+a:-25	 SquareRoot:5.0<br/>
+Test Method Failed<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [2.23606797749979] but found [5.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.tam.m4.HomeTask.testSquareRootOfNegativeNumber(HomeTask.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2111597906", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2111597906'><pre>java.lang.AssertionError: expected [2.23606797749979] but found [5.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.tam.m4.HomeTask.testSquareRootOfNegativeNumber(HomeTask.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.tam.m4.HomeTask@5ae9a829</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.tam.m4.HomeTask.testAdditionOfTwoPositiveNumbers()'><b>testAdditionOfTwoPositiveNumbers</b><br>Test class: com.tam.m4.HomeTask<br/>
+<a href="#Output-1245928829" onClick='toggleBox("Output-1245928829", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1245928829" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1245928829">
+Method started: testAdditionOfTwoPositiveNumbers<br/>
+a:10	 b:20	 sum:30<br/>
+Test Method Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tam.m4.HomeTask@5ae9a829</td></tr>
+<tr>
+<td title='com.tam.m4.HomeTask.testDivideByZero()'><b>testDivideByZero</b><br>Test class: com.tam.m4.HomeTask<br/>
+<a href="#Output-2048023083" onClick='toggleBox("Output-2048023083", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2048023083" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2048023083">
+Method started: testDivideByZero<br/>
+Test Method Passed<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NumberFormatException: Attempt to divide by zero
+	at com.epam.tat.module4.Calculator.div(Calculator.java:34)
+	at com.tam.m4.HomeTask.testDivideByZero(HomeTask.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2048023083", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2048023083'><pre>java.lang.NumberFormatException: Attempt to divide by zero
+	at com.epam.tat.module4.Calculator.div(Calculator.java:34)
+	at com.tam.m4.HomeTask.testDivideByZero(HomeTask.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.tam.m4.HomeTask@5ae9a829</td></tr>
+<tr>
+<td title='com.tam.m4.HomeTask.testDivideZeroByANumber()'><b>testDivideZeroByANumber</b><br>Test class: com.tam.m4.HomeTask<br/>
+<a href="#Output-367040411" onClick='toggleBox("Output-367040411", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-367040411" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-367040411">
+Method started: testDivideZeroByANumber<br/>
+a:0	 b:1	 quotient:0<br/>
+Test Method Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tam.m4.HomeTask@5ae9a829</td></tr>
+<tr>
+<td title='com.tam.m4.HomeTask.testIsNegative()'><b>testIsNegative</b><br>Test class: com.tam.m4.HomeTask<br/>
+<a href="#Output-1532093354" onClick='toggleBox("Output-1532093354", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1532093354" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1532093354">
+Method started: testIsNegative<br/>
+a:1	 IsNegative:false<br/>
+Test Method Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tam.m4.HomeTask@5ae9a829</td></tr>
+<tr>
+<td title='com.tam.m4.HomeTask.testIsPositive()'><b>testIsPositive</b><br>Test class: com.tam.m4.HomeTask<br/>
+<a href="#Output-655892761" onClick='toggleBox("Output-655892761", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-655892761" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-655892761">
+Method started: testIsPositive<br/>
+a:-1	 IsPositive:false<br/>
+Test Method Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tam.m4.HomeTask@5ae9a829</td></tr>
+<tr>
+<td title='com.tam.m4.HomeTask.testMultiplication()'><b>testMultiplication</b><br>Test class: com.tam.m4.HomeTask<br/>
+<a href="#Output-688196075" onClick='toggleBox("Output-688196075", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-688196075" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-688196075">
+Method started: testMultiplication<br/>
+a:10	 b:20	 product:200<br/>
+Test Method Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tam.m4.HomeTask@5ae9a829</td></tr>
+<tr>
+<td title='com.tam.m4.HomeTask.testMultiplyNumbers()'><b>testMultiplyNumbers</b><br>Test class: com.tam.m4.HomeTask<br>Parameters: 10, 20, 200<br/>
+<a href="#Output-828786491" onClick='toggleBox("Output-828786491", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-828786491" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-828786491">
+Method started: testMultiplyNumbers<br/>
+a:10	 b:20	 product:200<br/>
+Test Method Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tam.m4.HomeTask@5ae9a829</td></tr>
+<tr>
+<td title='com.tam.m4.HomeTask.testMultiplyNumbers()'><b>testMultiplyNumbers</b><br>Test class: com.tam.m4.HomeTask<br>Parameters: 20, 10, 200<br/>
+<a href="#Output-551801202" onClick='toggleBox("Output-551801202", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-551801202" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-551801202">
+Method started: testMultiplyNumbers<br/>
+a:20	 b:10	 product:200<br/>
+Test Method Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tam.m4.HomeTask@5ae9a829</td></tr>
+<tr>
+<td title='com.tam.m4.HomeTask.testMultiplyNumbers()'><b>testMultiplyNumbers</b><br>Test class: com.tam.m4.HomeTask<br>Parameters: 0, 5, 0<br/>
+<a href="#Output-1315534564" onClick='toggleBox("Output-1315534564", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1315534564" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1315534564">
+Method started: testMultiplyNumbers<br/>
+a:0	 b:5	 product:0<br/>
+Test Method Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tam.m4.HomeTask@5ae9a829</td></tr>
+<tr>
+<td title='com.tam.m4.HomeTask.testMultiplyNumbers()'><b>testMultiplyNumbers</b><br>Test class: com.tam.m4.HomeTask<br>Parameters: -5, 0, 0<br/>
+<a href="#Output-210822448" onClick='toggleBox("Output-210822448", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-210822448" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-210822448">
+Method started: testMultiplyNumbers<br/>
+a:-5	 b:0	 product:0<br/>
+Test Method Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tam.m4.HomeTask@5ae9a829</td></tr>
+<tr>
+<td title='com.tam.m4.HomeTask.testSubtractionOfTwoNumbers()'><b>testSubtractionOfTwoNumbers</b><br>Test class: com.tam.m4.HomeTask<br/>
+<a href="#Output-777369347" onClick='toggleBox("Output-777369347", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-777369347" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-777369347">
+Method started: testSubtractionOfTwoNumbers<br/>
+a:10	 b:20	 diff:-10<br/>
+Test Method Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tam.m4.HomeTask@5ae9a829</td></tr>
+</table><p>
+</body>
+</html>

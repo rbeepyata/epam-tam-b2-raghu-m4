@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [CalculatorSuite]" parallel="methods">
+  <listeners>
+    <listener class-name="com.tam.m4.TestListener"/>
+  </listeners>
+  <test name="CalculatorTest(failed)" parallel="methods">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+        <include name="Negative"/>
+        <exclude name="Subtraction"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.tam.m4.HomeTask">
+        <methods>
+          <include name="testMultiplication"/>
+          <include name="testAdditionOfTwoPositiveNumbers"/>
+          <include name="testSubtractionOfTwoNumbers"/>
+          <include name="testCosine"/>
+          <include name="testSquareRootOfNegativeNumber"/>
+        </methods>
+      </class> <!-- com.tam.m4.HomeTask -->
+    </classes>
+  </test> <!-- CalculatorTest(failed) -->
+</suite> <!-- Failed suite [CalculatorSuite] -->

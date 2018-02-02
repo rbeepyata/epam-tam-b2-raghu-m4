@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="4" total="17" passed="11">
+  <reporter-output>
+    <line>
+      <![CDATA[Method started: testMultiplication]]>
+    </line>
+    <line>
+      <![CDATA[Method started: testSubtractionOfTwoNumbers]]>
+    </line>
+    <line>
+      <![CDATA[Method started: testAdditionOfTwoPositiveNumbers]]>
+    </line>
+    <line>
+      <![CDATA[a:10	 b:20	 sum:30]]>
+    </line>
+    <line>
+      <![CDATA[a:10	 b:20	 product:200]]>
+    </line>
+    <line>
+      <![CDATA[a:10	 b:20	 diff:-10]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Passed]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Passed]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Passed]]>
+    </line>
+    <line>
+      <![CDATA[Method started: testDivideZeroByANumber]]>
+    </line>
+    <line>
+      <![CDATA[a:0	 b:1	 quotient:0]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Passed]]>
+    </line>
+    <line>
+      <![CDATA[Method started: testCosine]]>
+    </line>
+    <line>
+      <![CDATA[a:0	 cos:0.0]]>
+    </line>
+    <line>
+      <![CDATA[Method started: testDivideByZero]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Passed]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Failed]]>
+    </line>
+    <line>
+      <![CDATA[Method started: testIsPositive]]>
+    </line>
+    <line>
+      <![CDATA[a:-1	 IsPositive:false]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Passed]]>
+    </line>
+    <line>
+      <![CDATA[Method started: testIsNegative]]>
+    </line>
+    <line>
+      <![CDATA[a:1	 IsNegative:false]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Passed]]>
+    </line>
+    <line>
+      <![CDATA[Method started: testSquareRootOfNegativeNumber]]>
+    </line>
+    <line>
+      <![CDATA[a:-25	 SquareRoot:5.0]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Failed]]>
+    </line>
+    <line>
+      <![CDATA[Method started: testMultiplyNumbers]]>
+    </line>
+    <line>
+      <![CDATA[a:10	 b:20	 product:200]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Passed]]>
+    </line>
+    <line>
+      <![CDATA[Method started: testMultiplyNumbers]]>
+    </line>
+    <line>
+      <![CDATA[a:20	 b:10	 product:200]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Passed]]>
+    </line>
+    <line>
+      <![CDATA[Method started: testMultiplyNumbers]]>
+    </line>
+    <line>
+      <![CDATA[a:0	 b:5	 product:0]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Passed]]>
+    </line>
+    <line>
+      <![CDATA[Method started: testMultiplyNumbers]]>
+    </line>
+    <line>
+      <![CDATA[a:-5	 b:0	 product:0]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Passed]]>
+    </line>
+  </reporter-output>
+  <suite name="CalculatorSuite" duration-ms="147" started-at="2018-02-02T12:31:02Z" finished-at="2018-02-02T12:31:02Z">
+    <groups>
+      <group name="Negative">
+        <method signature="HomeTask.testCosine()[pri:0, instance:com.tam.m4.HomeTask@5ae9a829]" name="testCosine" class="com.tam.m4.HomeTask"/>
+        <method signature="HomeTask.testDivideByZero()[pri:0, instance:com.tam.m4.HomeTask@5ae9a829]" name="testDivideByZero" class="com.tam.m4.HomeTask"/>
+        <method signature="HomeTask.testDivideZeroByANumber()[pri:0, instance:com.tam.m4.HomeTask@5ae9a829]" name="testDivideZeroByANumber" class="com.tam.m4.HomeTask"/>
+        <method signature="HomeTask.testIsNegative()[pri:0, instance:com.tam.m4.HomeTask@5ae9a829]" name="testIsNegative" class="com.tam.m4.HomeTask"/>
+        <method signature="HomeTask.testIsPositive()[pri:0, instance:com.tam.m4.HomeTask@5ae9a829]" name="testIsPositive" class="com.tam.m4.HomeTask"/>
+        <method signature="HomeTask.testMultiplyNumbers(long, long, long)[pri:0, instance:com.tam.m4.HomeTask@5ae9a829]" name="testMultiplyNumbers" class="com.tam.m4.HomeTask"/>
+        <method signature="HomeTask.testSquareRootOfNegativeNumber()[pri:0, instance:com.tam.m4.HomeTask@5ae9a829]" name="testSquareRootOfNegativeNumber" class="com.tam.m4.HomeTask"/>
+      </group> <!-- Negative -->
+      <group name="Smoke">
+        <method signature="HomeTask.testAdditionOfTwoPositiveNumbers()[pri:0, instance:com.tam.m4.HomeTask@5ae9a829]" name="testAdditionOfTwoPositiveNumbers" class="com.tam.m4.HomeTask"/>
+        <method signature="HomeTask.testMultiplication()[pri:0, instance:com.tam.m4.HomeTask@5ae9a829]" name="testMultiplication" class="com.tam.m4.HomeTask"/>
+        <method signature="HomeTask.testSubtractionOfTwoNumbers()[pri:0, instance:com.tam.m4.HomeTask@5ae9a829]" name="testSubtractionOfTwoNumbers" class="com.tam.m4.HomeTask"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="CalculatorTest" duration-ms="147" started-at="2018-02-02T12:31:02Z" finished-at="2018-02-02T12:31:02Z">
+      <class name="com.tam.m4.HomeTask">
+        <test-method status="PASS" signature="testMultiplication()[pri:0, instance:com.tam.m4.HomeTask@5ae9a829]" name="testMultiplication" duration-ms="19" started-at="2018-02-02T18:01:02Z" finished-at="2018-02-02T18:01:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Method started: testMultiplication]]>
+            </line>
+            <line>
+              <![CDATA[a:10	 b:20	 product:200]]>
+            </line>
+            <line>
+              <![CDATA[Test Method Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMultiplication -->
+        <test-method status="PASS" signature="testSubtractionOfTwoNumbers()[pri:0, instance:com.tam.m4.HomeTask@5ae9a829]" name="testSubtractionOfTwoNumbers" duration-ms="19" started-at="2018-02-02T18:01:02Z" finished-at="2018-02-02T18:01:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Method started: testSubtractionOfTwoNumbers]]>
+            </line>
+            <line>
+              <![CDATA[a:10	 b:20	 diff:-10]]>
+            </line>
+            <line>
+              <![CDATA[Test Method Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSubtractionOfTwoNumbers -->
+        <test-method status="PASS" signature="testAdditionOfTwoPositiveNumbers()[pri:0, instance:com.tam.m4.HomeTask@5ae9a829]" name="testAdditionOfTwoPositiveNumbers" duration-ms="19" started-at="2018-02-02T18:01:02Z" finished-at="2018-02-02T18:01:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Method started: testAdditionOfTwoPositiveNumbers]]>
+            </line>
+            <line>
+              <![CDATA[a:10	 b:20	 sum:30]]>
+            </line>
+            <line>
+              <![CDATA[Test Method Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAdditionOfTwoPositiveNumbers -->
+        <test-method status="PASS" signature="testDivideByZero()[pri:0, instance:com.tam.m4.HomeTask@5ae9a829]" name="testDivideByZero" duration-ms="17" depends-on-groups="Smoke" started-at="2018-02-02T18:01:02Z" finished-at="2018-02-02T18:01:02Z">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[Attempt to divide by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: Attempt to divide by zero
+	at com.epam.tat.module4.Calculator.div(Calculator.java:34)
+	at com.tam.m4.HomeTask.testDivideByZero(HomeTask.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Method started: testDivideByZero]]>
+            </line>
+            <line>
+              <![CDATA[Test Method Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDivideByZero -->
+        <test-method status="PASS" signature="testDivideZeroByANumber()[pri:0, instance:com.tam.m4.HomeTask@5ae9a829]" name="testDivideZeroByANumber" duration-ms="3" depends-on-groups="Smoke" started-at="2018-02-02T18:01:02Z" finished-at="2018-02-02T18:01:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Method started: testDivideZeroByANumber]]>
+            </line>
+            <line>
+              <![CDATA[a:0	 b:1	 quotient:0]]>
+            </line>
+            <line>
+              <![CDATA[Test Method Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDivideZeroByANumber -->
+        <test-method status="FAIL" signature="testCosine()[pri:0, instance:com.tam.m4.HomeTask@5ae9a829]" name="testCosine" duration-ms="16" depends-on-groups="Smoke" started-at="2018-02-02T18:01:02Z" finished-at="2018-02-02T18:01:02Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1.0] but found [0.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1.0] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.tam.m4.HomeTask.testCosine(HomeTask.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Method started: testCosine]]>
+            </line>
+            <line>
+              <![CDATA[a:0	 cos:0.0]]>
+            </line>
+            <line>
+              <![CDATA[Test Method Failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCosine -->
+        <test-method status="PASS" signature="testIsNegative()[pri:0, instance:com.tam.m4.HomeTask@5ae9a829]" name="testIsNegative" duration-ms="23" depends-on-groups="Smoke" started-at="2018-02-02T18:01:02Z" finished-at="2018-02-02T18:01:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Method started: testIsNegative]]>
+            </line>
+            <line>
+              <![CDATA[a:1	 IsNegative:false]]>
+            </line>
+            <line>
+              <![CDATA[Test Method Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testIsNegative -->
+        <test-method status="PASS" signature="testIsPositive()[pri:0, instance:com.tam.m4.HomeTask@5ae9a829]" name="testIsPositive" duration-ms="11" depends-on-groups="Smoke" started-at="2018-02-02T18:01:02Z" finished-at="2018-02-02T18:01:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Method started: testIsPositive]]>
+            </line>
+            <line>
+              <![CDATA[a:-1	 IsPositive:false]]>
+            </line>
+            <line>
+              <![CDATA[Test Method Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testIsPositive -->
+        <test-method status="FAIL" signature="testSquareRootOfNegativeNumber()[pri:0, instance:com.tam.m4.HomeTask@5ae9a829]" name="testSquareRootOfNegativeNumber" duration-ms="8" depends-on-groups="Smoke" started-at="2018-02-02T18:01:02Z" finished-at="2018-02-02T18:01:02Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [2.23606797749979] but found [5.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [2.23606797749979] but found [5.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.tam.m4.HomeTask.testSquareRootOfNegativeNumber(HomeTask.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Method started: testSquareRootOfNegativeNumber]]>
+            </line>
+            <line>
+              <![CDATA[a:-25	 SquareRoot:5.0]]>
+            </line>
+            <line>
+              <![CDATA[Test Method Failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSquareRootOfNegativeNumber -->
+        <test-method status="PASS" signature="testMultiplyNumbers(long, long, long)[pri:0, instance:com.tam.m4.HomeTask@5ae9a829]" name="testMultiplyNumbers" duration-ms="2" depends-on-groups="Smoke" started-at="2018-02-02T18:01:02Z" data-provider="MultiplicationDataProvider" finished-at="2018-02-02T18:01:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method started: testMultiplyNumbers]]>
+            </line>
+            <line>
+              <![CDATA[a:10	 b:20	 product:200]]>
+            </line>
+            <line>
+              <![CDATA[Test Method Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMultiplyNumbers -->
+        <test-method status="PASS" signature="testMultiplyNumbers(long, long, long)[pri:0, instance:com.tam.m4.HomeTask@5ae9a829]" name="testMultiplyNumbers" duration-ms="5" depends-on-groups="Smoke" started-at="2018-02-02T18:01:02Z" data-provider="MultiplicationDataProvider" finished-at="2018-02-02T18:01:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method started: testMultiplyNumbers]]>
+            </line>
+            <line>
+              <![CDATA[a:20	 b:10	 product:200]]>
+            </line>
+            <line>
+              <![CDATA[Test Method Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMultiplyNumbers -->
+        <test-method status="PASS" signature="testMultiplyNumbers(long, long, long)[pri:0, instance:com.tam.m4.HomeTask@5ae9a829]" name="testMultiplyNumbers" duration-ms="2" depends-on-groups="Smoke" started-at="2018-02-02T18:01:02Z" data-provider="MultiplicationDataProvider" finished-at="2018-02-02T18:01:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method started: testMultiplyNumbers]]>
+            </line>
+            <line>
+              <![CDATA[a:0	 b:5	 product:0]]>
+            </line>
+            <line>
+              <![CDATA[Test Method Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMultiplyNumbers -->
+        <test-method status="PASS" signature="testMultiplyNumbers(long, long, long)[pri:0, instance:com.tam.m4.HomeTask@5ae9a829]" name="testMultiplyNumbers" duration-ms="1" depends-on-groups="Smoke" started-at="2018-02-02T18:01:02Z" data-provider="MultiplicationDataProvider" finished-at="2018-02-02T18:01:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method started: testMultiplyNumbers]]>
+            </line>
+            <line>
+              <![CDATA[a:-5	 b:0	 product:0]]>
+            </line>
+            <line>
+              <![CDATA[Test Method Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMultiplyNumbers -->
+      </class> <!-- com.tam.m4.HomeTask -->
+    </test> <!-- CalculatorTest -->
+  </suite> <!-- CalculatorSuite -->
+</testng-results>
